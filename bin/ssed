@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+sed -f <(cat -) "$@"
